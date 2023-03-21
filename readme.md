@@ -29,16 +29,14 @@
 | Contract | The contract term of the customer (Month-to-month, One year, Two year) | String |
 | PaperlessBilling | Whether the customer has paperless billing or not | {'Yes': 1, 'No': 0} |
 | payment_type_id | The customer's payment method | 1, 2, 3, 4 |
+| payment_type | what type of method a customer used (mailed check, credit card (automatic), bank transfer (automatic))
 | (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic)) | 
 | MonthlyCharges | The amount charged to the customer monthly | Float |
 | TotalCharges | The total amount charged throughout tenure | Float |
 | Churn       | Whether the customer churned or not | {'Yes': 1, 'No': 0} | 
-| churn | customer leaving the company | yes or no |
-| tenure | how long a customer has had services in months | integer |
-| total_charges | total charges over tenure | integer |
-| paperless_billing | {'Yes': 1, 'No': 0} |
+
 | payment_type_id | identifer for payment | 1, 2, 3, 4 |
-| payment_type | what type of method a customer used (mailed check, credit card (automatic), bank transfer (automatic))
+
 | internet_service_type_id | identifier for internet service | 0, 1, 2 |
 | internet_service_type | what type of internet service (None, DSL, or Fiber Optic)
 | contract_type_id | identifier for contract type | 0, 1, 2 |
