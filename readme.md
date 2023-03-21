@@ -29,8 +29,7 @@
 | Contract | The contract term of the customer (Month-to-month, One year, Two year) | String |
 | PaperlessBilling | Whether the customer has paperless billing or not | {'Yes': 1, 'No': 0} |
 | payment_type_id | The customer's payment method | 1, 2, 3, 4 |
-| payment_type | what type of method a customer used (mailed check, credit card (automatic), bank transfer (automatic))
-| (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic)) | 
+| payment_type | what type of method a customer used (mailed check, credit card (automatic), bank transfer (automatic)) |
 | MonthlyCharges | The amount charged to the customer monthly | Float |
 | TotalCharges | The total amount charged throughout tenure | Float |
 | Churn       | Whether the customer churned or not | {'Yes': 1, 'No': 0} | 
