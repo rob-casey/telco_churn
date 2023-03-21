@@ -270,7 +270,7 @@ def tech_support_viz(train):
     sns.barplot(x="tech_support", y="churn", data=train, palette='pastel')
     rate = train["churn"].mean()
     plt.axhline(rate, label = f'Average churn rate', linestyle='--', color='black')
-    plt.title("Does whether a customer has or doesn't have tech support affect churn? ")
+    plt.title("Does whether a customer have or doesn't have tech support affect churn? ")
     plt.xlabel(xlabel="Tech Support")
     plt.ylabel(ylabel="Churn Rate")
     plt.legend(frameon=True)
