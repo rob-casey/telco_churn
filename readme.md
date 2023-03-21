@@ -11,8 +11,8 @@
 
 ## Data Dictionary
 ***
-| Column Name | Description | Values |
-|-------------|-------------|----------|
+| Column Name | Description |
+|-------------|-------------|
 | churn | customer leaving the company, yes or no
 | tenure | how long a customer has had services in months
 | total_charges | total charges over tenure
